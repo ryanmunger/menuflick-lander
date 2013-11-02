@@ -51,7 +51,7 @@
           </div><!-- /end .col-md-2 -->
           <img src="img/logo.png" class="logo">
           <h1>See & Vote for the best Restaurant Dishes, Anywhere.</h1>
-          <a href="#"><img src="img/app-store-logo.png"></img>
+          <a href="#"><img src="img/app-store-logo.png"></img></a>
 
         </div><!-- /end .md-col-9 -->
 
