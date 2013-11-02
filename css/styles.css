@@ -135,14 +135,90 @@ input[type="email"] {
   }
 }
 
+.app-store-mobile {
+  display: none;
+}
+
 @media (max-width: 991px) {
+  body {
+    padding-top: 110px;
+  }
   footer {
-    position: fixed;
+    position: absolute;
     top: 0;
     bottom: auto;
   }
-}
+  footer h2 {
+    text-align: center;
+    float: none;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  button[type="submit"] {
+    display: none;
+  }
+  input[type="email"] {
+    width: 100%;
+  }
+  .iphone {
+    display: none;
+  }
+  .list-inline {
+    display: none;
+  }
+  .app-store-mobile {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: 75%;
+  }
+  .app-store {
+    display: none;
+  }
+  .mobile-tag {
+    font-size: 24px;
+    margin-top: 25px;
+  }
+  .desktop-headline {
+    display: none;
+  }
+  .down-arrow, .up-arrow {
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    background: #e2e2e1 url(../img/bottom-arrow.png) no-repeat 50% 50%;
+    background-size: 8%;
+    display: block;
+    z-index: 5;
+  }
 
+  .up-arrow {
+    background: #e2e2e1 url(../img/top-arrow.png) no-repeat 50% 50%;
+    bottom: auto;
+    top: 0;
+    background-size: 8%;
+  }
+
+  #step-1 h1 {
+    font-size: 56px;
+    margin-top: -30px;
+    padding-top: 100px;
+  }
+}
 .main-menu {
   padding-left: 0;
+}
+.swipe {
+  overflow: hidden;
+  visibility: hidden;
+  position: relative;
+}
+.swipe-wrap {
+  overflow: hidden;
+  position: relative;
+}
+.swipe-wrap > div {
+  float:left;
+  width:100%;
+  position: relative;
 }
