@@ -11,6 +11,9 @@
             </form> 
           </div><!-- /end .col-md-4 -->
         </div><!-- /end .row -->
+<div style="float: left; padding: 0px 0px 0px 100px;">
+     <a href="http://www.iubenda.com/privacy-policy/766582" class="iubenda-white iubenda-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "http://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+     </div>						    
       </div><!-- /end .container -->
     </footer>
 
@@ -31,5 +34,6 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>

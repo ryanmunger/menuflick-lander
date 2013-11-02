@@ -1,4 +1,3 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^faq$ faq.php
-RewriteRule ^privacy$ privacy.php
