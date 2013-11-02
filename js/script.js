@@ -11,27 +11,41 @@
       }
     }
   });
+  window.mySwipe = Swipe(document.getElementById('slider'));
 
   $('[href="#top"]').hide();
 
   var step1 = $('#step-1').offset().top,
-    step2 = $('#step-2').offset().top,
-    top = $('#top').offset().top,
-    $window = $(window);
+      step2 = $('#step-2').offset().top,
+      step3 = $('#step-3').offset().top,
+      top = $('#top').offset().top,
+      $window = $(window);
+
+  console.log(step3);
+  $window.scroll(function() {
+    console.log($window.scrollTop());
+  });
 
   $window.scroll(function() {
       if ( $window.scrollTop() >= step1 ) {
         $('[href="#top"]').fadeIn();
         $('.down-arrow').attr('href', '#step-2');
         $('.up-arrow').attr('href', '#top');
-      } else if ( $window.scrollTop() >= step2 ) {
+      }
+      if ( $window.scrollTop() <= step1 - 10 ) {
+        $('[href="#top"]').fadeOut();
+      }
+      if ( $window.scrollTop() >= step2 - 10 ) {
         $('.up-arrow').attr('href', '#step-1');
         $('.down-arrow').attr('href', '#step-3');
-      } else if ($window.scrollTop() >= top) {
+      }
+      if ( $window.scrollTop() >= step3 ) {
+        $('.up-arrow').attr('href', '#step-2');
+        $('.down-arrow').fadeOut();
+      }
+      if ($window.scrollTop() === top) {
         $('[href="#top"]').fadeOut();
         $('.down-arrow').attr('href', '#step-1');
-      } else if ($window.scrollTop() >= step3) {
       }
   });
-  window.mySwipe = Swipe(document.getElementById('slider'));
 })($);

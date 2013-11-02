@@ -48,8 +48,6 @@
             </ul>
           </div><!-- /end .col-md-2 -->
           <img src="img/logo.png" class="logo">
-          <h1>See & Vote for the best Restaurant Dishes, Anywhere.</h1>
-          <a href="#"><img src="img/app-store-logo.png"></img></a>
           <h1 class="desktop-headline">See & Vote for the best Restaurant Dishes, Anywhere.</h1>
           <a href="#"><img src="img/app-store-logo.png" class="app-store"></img></a>
           <a href="#"><img src="img/app-store-logo-mobile.jpg" class="app-store-mobile"></img></a>
@@ -61,14 +59,16 @@
     </div><!-- /end .container -->
     <a class="down-arrow" href="#step-1"></a>
     </div>
-    <section id="step-1">
+
+    <section id="step-1" class="visible-xs visible-sm">
       <a class="up-arrow" href="#top"></a>
       <div class="container">
         <h1>See & Vote for the best Restaurant Dishes, Anywhere.</h1>
       </div>
     </section>
-    <div class="container">
+
     <section id="step-2">
+    <div class="container">
       <div id='slider' class='swipe'>
         <div class='swipe-wrap'>
           <div><img src="img/screen-1.png"></div>
@@ -80,6 +80,24 @@
         </div>
       </div>
     </div>
+    </section>
+
+    <section id="step-3" class="visible-xs visible-sm">
+      <div class="container">
+        <h1 class="text-center">Get Hungry</h1>
+        <a href="#"><img src="img/app-store-logo-mobile.jpg" class="app-store-mobile"></img></a>
+      </div>
+      <footer class="mobile-footer">
+        <div class="container">
+          <h2 class="text-center">Subscribe to Our Mailing List:</h2>
+        <div id="mc_embed_signup">
+            <form action="http://menu-flick.us5.list-manage.com/subscribe/post?u=2743b081c100022c46e1778eb&amp;id=6669ae501b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <input type="email" class="form-control" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-default">
+            </form>
+        </div>
+        </div>
+        </footer>
     </section>
 
 <?php include("footer.php"); ?>

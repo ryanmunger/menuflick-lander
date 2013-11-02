@@ -112,6 +112,33 @@ input[type="email"] {
   padding-right: 4%;
 }
 
+.privacy-policy {
+}
+
+h2 {
+  width: 38%;
+  float: left;
+}
+
+form {
+  float: left;
+  width: 59%;
+}
+
+input[type="email"] {
+  float: left;
+  margin-right: 3%;
+}
+
+input[type="submit"] {
+  float: left;
+}
+
+.offset-left {
+  position: relative;
+  left: 96px;
+}
+
 @media (max-width: 1200px) {
   .logo {
     margin-top: 40px;
@@ -139,6 +166,10 @@ input[type="email"] {
   display: none;
 }
 
+#slider {
+  display: none;
+}
+
 @media (max-width: 991px) {
   body {
     padding-top: 110px;
@@ -149,13 +180,14 @@ input[type="email"] {
     bottom: auto;
   }
   footer h2 {
-    text-align: center;
     float: none;
     font-size: 18px;
     margin-bottom: 12px;
+    position: relative;
+    left: 4px;
   }
-  button[type="submit"] {
-    display: none;
+  input[type="submit"] {
+    display: none !important;
   }
   input[type="email"] {
     width: 100%;
@@ -204,7 +236,41 @@ input[type="email"] {
     margin-top: -30px;
     padding-top: 100px;
   }
+  .privacy-policy {
+    display: none;
+  }
+  #slider {
+    display: block;
+  }
+
+  .offset-left {
+    left: 0;
+  }
+  h2 {
+    width: 100%;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  #step-3 {
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  #step-3 h1 {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  .mobile-footer {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    margin-bottom: -140px;
+  }
 }
+
 .main-menu {
   padding-left: 0;
 }
