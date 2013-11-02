@@ -76,7 +76,6 @@ input[type="email"] {
   transition: all .2s ease-in-out;
   font-family: 'NeueHaasGroteskMedium', sans-serif;
   color: black;
-  margin-right: 14px;
 }
 
 .list-inline a:hover {
