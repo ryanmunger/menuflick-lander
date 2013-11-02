@@ -18,7 +18,7 @@
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-md-4 phone-contain">
           <div class="iphone">
           <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -56,7 +56,7 @@
         </div><!-- /end md-col-3 -->
 
         <div class="col-md-8">
-          <div class="col-md-6">
+          <div class="col-md-6 main-menu">
             <ul class="list-inline">
               <li><a href="#">Blog</a></li>
               <li><a href="#">FAQ</a></li>

@@ -16,6 +16,7 @@
 body {
   font-size: 16px;
   font-family: 'NeueHaasGroteskMedium', sans-serif;
+  padding-bottom: 60px;
 }
 
 a {
@@ -46,7 +47,7 @@ h2 {
   margin-top: 65px;
   margin-bottom: 40px;
   background: url(../img/iphone.png) no-repeat 0 0;
-  height: 799px;
+  height: 700px;
   width: 100%;
   background-size: contain;
 }
@@ -59,7 +60,10 @@ h2 {
 footer {
   background: #ff0000;
   color: #fff;
-  padding: 40px 0;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 input[type="email"] {
@@ -102,4 +106,32 @@ input[type="email"] {
 
 .carousel {
   z-index: -1;
+}
+
+.phone-contain {
+  padding-right: 4%;
+}
+
+@media (max-width: 1200px) {
+  .logo {
+    margin-top: 40px;
+  }
+
+  .iphone {
+    height: 568px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+  input[type="email"] {
+    width: 60%;
+  }
+  body {
+    padding-bottom: 100px;
+  }
+}
+
+.main-menu {
+  padding-left: 0;
 }
