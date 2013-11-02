@@ -44,9 +44,9 @@
         <div class="col-md-8">
           <div class="col-md-6 main-menu">
             <ul class="list-inline">
-              <li><a href="#">Blog</a></li>
+              <li><a href="http://blog.menu-flick.com" target="_blank">Blog</a></li>
               <li><a href="/faq">FAQ</a></li>
-              <li><a href="#">Privacy</a></li>
+              <li><a href="/privacy">Privacy</a></li>
               <li><a href="#">App Store</a></li>
             </ul>
           </div><!-- /end .col-md-2 -->
