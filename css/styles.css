@@ -47,7 +47,8 @@ h2 {
   margin-bottom: 40px;
   background: url(../img/iphone.png) no-repeat 0 0;
   height: 799px;
-  width: 350px;
+  width: 100%;
+  background-size: contain;
 }
 
 .logo {
