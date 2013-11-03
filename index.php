@@ -42,14 +42,15 @@
         <div class="col-md-8">
           <div class="col-md-6 main-menu">
             <ul class="list-inline">
-              <li><a href="http://blog.menu-flick.com" target="_blank">Blog</a></li>
-              <li><a href="/faq">FAQ</a></li>
-              <li><a href="#">App Store</a></li>
+<!--              <li><a href="http://blog.menu-flick.com" target="_blank">Blog</a></li>
+              <li><a href="/faq">FAQ</a></li> -->
+              <li><a href="/learn">Learn More</a></li>
             </ul>
           </div><!-- /end .col-md-2 -->
           <img src="img/logo.png" class="logo">
           <h1 class="desktop-headline">See & Vote for the best Restaurant Dishes, Anywhere.</h1>
-          <a href="#"><img src="img/app-store-logo.png" class="app-store"></img></a>
+
+          <a href="#"><img src="img/app-store-logo.png" class="app-store"></img></a>	<br>Subscribe to our newsletter to be the first to find out when Menuflick is available for consumption
           <a href="#"><img src="img/app-store-logo-mobile.jpg" class="app-store-mobile"></img></a>
           <p class="mobile-tag visible-xs visible-sm text-center">Eat with the Masses</p>
 

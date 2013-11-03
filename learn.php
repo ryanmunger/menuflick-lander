@@ -2,8 +2,8 @@
   <body>
     <div class="container">
       <div class="row">
-	<a href="/"><img src="img/logo.png" class="logo"></a>	
-	<h1>FAQ</h1>
+	<a href="/"><img src="img/logo.png" class="logo"></a>
+	<h1>Learn More</h1>
 	   
 
             
