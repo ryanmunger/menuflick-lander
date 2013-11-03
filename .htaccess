@@ -1,4 +1,4 @@
 RewriteEngine On
 RewriteBase /
 RewriteRule ^faq$ faq.php
-RewriteRule ^learn$ learn.php
+RewriteRule ^learn-more$ learn.php

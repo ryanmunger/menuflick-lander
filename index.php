@@ -44,7 +44,7 @@
             <ul class="list-inline">
 <!--              <li><a href="http://blog.menu-flick.com" target="_blank">Blog</a></li>
               <li><a href="/faq">FAQ</a></li> -->
-              <li><a href="/learn">Learn More</a></li>
+              <li><a href="/learn-more">Learn More</a></li>
             </ul>
           </div><!-- /end .col-md-2 -->
           <img src="img/logo.png" class="logo">
