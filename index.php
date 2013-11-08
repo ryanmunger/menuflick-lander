@@ -45,9 +45,10 @@
           
               <!-- <li><a href="/faq">FAQ</a></li> -->
               <li><a href="http://blog.menu-flick.com" target="_blank">Blog</a></li>
-               <li><a href="/learn-more">Learn More</a></li>
+              <li><a href="/learn-more">Learn More</a></li>
+	      <li><a href="http://www.iubenda.com/privacy-policy/766582" target="_blank" title="Privacy Policy">Privacy Policy</a></li>
               <li><a href="http://www.twitter.com/menuflick" class="entypo" target="_blank">&#62217;</a></li>
-              <li><a href="http://www.facebook.com/menuflick" class="entypo"target="_blank">&#62222;</a></li>
+              <li><a href="http://www.facebook.com/menuflick" class="entypo" target="_blank">&#62220;</a></li>
             </ul>
           </div><!-- /end .col-md-2 -->
           <img src="img/logo.png" class="logo">
@@ -56,7 +57,8 @@
           <a href="#"><img src="img/app-store-logo.png" class="app-store"></img></a>	<br>
 <br>
 Subscribe to our newsletter to be the first to find out when Menuflick is available for consumption
-          <a href="#"><img src="img/app-store-logo-mobile.jpg" class="app-store-mobile"></img></a>
+<br><br>
+          <a href="#"><img src="img/app-store-logo.png" class="app-store-mobile"></img></a>
           <p class="mobile-tag visible-xs visible-sm text-center">Eat with the Masses</p>
 
         </div><!-- /end .md-col-9 -->

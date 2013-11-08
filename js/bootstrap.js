@@ -417,7 +417,7 @@ if (typeof jQuery === "undefined") { throw new Error("Bootstrap requires jQuery"
           that.sliding = false
           setTimeout(function () { that.$element.trigger('slid') }, 0)
         })
-        .emulateTransitionEnd(600)
+        .emulateTransitionEnd(1500)
     } else {
       this.$element.trigger(e)
       if (e.isDefaultPrevented()) return
